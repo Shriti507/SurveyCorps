@@ -1,4 +1,4 @@
-##**📊 Benford's Law Analysis on Twitter Data**
+##**📊 Benford's Law Analysis on Twitter Data**##
 
 This project investigates the applicability of Benford's Law to numerical data extracted from Twitter. Benford's Law predicts the frequency distribution of leading digits in naturally occurring datasets, where lower digits like '1' appear more frequently as the leading digit than higher digits like '9'.
 
