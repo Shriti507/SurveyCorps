@@ -1,6 +1,6 @@
 📊 **Benford's Law Analysis on Twitter Data**
 
-This project investigates the applicability of Benford's Law to numerical data extracted from Twitter. Benford's Law predicts the frequency distribution of leading digits in naturally occurring datasets, where lower digits like '1' appear more frequently as the leading digit than higher digits like '9'.
+This project investigates the applicability of Benford’s Law to numerical data extracted from Twitter. Benford’s Law predicts the frequency distribution of leading digits in naturally occurring datasets, with lower digits like ‘1’ appearing more frequently as the leading digit than higher digits like ‘9’.
 
 🧠 **Objective:**
 To analyze whether numerical values related to Twitter (e.g., followers count, friends count and id) conform to Benford's Law. This can be used for anomaly detection, data authenticity checks, or understanding natural vs manipulated growth patterns in social metrics.
@@ -25,16 +25,16 @@ Distribution Comparison:
 
 Computed the actual distribution of leading digits.
 
-Compared it with the expected Benford's distribution.
+Compared with the expected Benford distribution.
 
 Statistical Tests: Applied Chi-square goodness-of-fit test and visual analysis.
 
 📈 **Features:**
-Supports visualization of digit frequency lineplots and bargraphs.
+Supports visualization of digit frequency line plots and bar graphs.
 
 Charts for actual vs expected Benford distribution.
 
-Supports analyzing separate features (followers vs friends vs ids).
+Supports analyzing separate features (followers vs friends vs IDs).
 
 Can be extended for anomaly detection.
 
@@ -50,7 +50,7 @@ SciPy for statistical tests
 **📌Use Cases:**
 Data Integrity Checks: Detect artificial inflation of metrics.
 
-Behavioral Insights: Understand organic vs manipulated accounts.
+Behavioural Insights: Understand organic vs manipulated accounts.
 
 Educational Tool: Demonstrates Benford's Law on real-world social media data.
 
