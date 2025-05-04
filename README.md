@@ -3,7 +3,7 @@
 This project investigates the applicability of Benford’s Law to numerical data extracted from Twitter. Benford’s Law predicts the frequency distribution of leading digits in naturally occurring datasets, with lower digits like ‘1’ appearing more frequently as the leading digit than higher digits like ‘9’.
 
 🧠 **Objective:**
-To analyze whether numerical values related to Twitter (e.g., followers count, friends count and id) conform to Benford's Law. This can be used for anomaly detection, data authenticity checks, or understanding natural vs manipulated growth patterns in social metrics.
+This project aims to analyze whether numerical values related to Twitter—such as follower counts, friend counts, and user IDs—conform to Benford’s Law. By examining the distribution of leading digits in these values, we can assess if they follow the expected pattern predicted by Benford’s Law. Such analysis can be useful for detecting anomalies, verifying data authenticity, and distinguishing between natural and manipulated growth patterns in social media metrics.
 
 📂 **Data Sources:**
 Twitter mock data
