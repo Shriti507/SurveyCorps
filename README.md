@@ -1,56 +1,73 @@
-📊 **Benford's Law Analysis on Twitter Data**
+# 📊 Benford's Law Analysis on Twitter Data
 
-The goal of this project is to explore whether Benford’s Law applies to numerical data taken from Twitter. Benford’s Law is a statistical principle that describes how often each digit (1 through 9) appears as the first digit in naturally occurring datasets. Interestingly, it shows that lower digits—especially ‘1’—tend to appear more frequently as the leading digit than higher ones like ‘9’. By applying this law to data such as follower counts, friend counts, and user IDs from Twitter, the project aims to determine whether these values follow the expected pattern. This can help in identifying anomalies or understanding the authenticity and nature of social media metrics.
+Ever wondered if Twitter metrics like follower counts and user IDs follow a natural pattern? This project explores whether **Benford’s Law**—a fascinating statistical rule—applies to numerical data from Twitter.
 
-🧠 **Objective:**
-This project aims to analyze whether numerical values related to Twitter—such as follower counts, friend counts, and user IDs—conform to Benford’s Law. By examining the distribution of leading digits in these values, we can assess if they follow the expected pattern predicted by Benford’s Law. Such analysis can be useful for detecting anomalies, verifying data authenticity, and distinguishing between natural and manipulated growth patterns in social media metrics.
+> 🧮 Benford’s Law states that in many naturally occurring datasets, **lower digits (especially '1')** are more likely to appear as the **first digit** than higher ones (like '9'). This project examines whether Twitter's data aligns with this distribution.
 
-📂 **Data Sources:**
-Twitter mock data
+---
 
-**Fields analyzed include:**
+## 🧠 Objective
 
-Followers count
+To analyze whether Twitter metrics—such as **follower counts**, **friend counts**, and **user IDs**—follow Benford’s Law.  
+This can help in:
 
-Friends count
+- Detecting **anomalies or suspicious patterns**
+- Assessing **data authenticity**
+- Differentiating between **organic** and **manipulated** growth
 
-ID
+---
 
-🔍 **Methodology:**
-Data Cleaning: Removed null, zero, and irrelevant values.
+## 📂 Data Source
 
-Digit Extraction: Extracted the first significant digit from each numerical value.
+- 🔹 **Mock Twitter Data**
 
-Distribution Comparison:
+**Fields analyzed:**
+- 👥 Follower Count  
+- 🤝 Friend Count  
+- 🆔 User ID
 
-Computed the actual distribution of leading digits.
+---
 
-Compared with the expected Benford distribution.
+## 🔍 Methodology
 
-Statistical Tests: Applied Chi-square goodness-of-fit test and visual analysis.
+1. **Data Cleaning**
+   - Removed null, zero, and irrelevant values.
 
-📈 **Features:**
-Provides intuitive visualizations of digit frequencies using line plots and bar charts.
+2. **Digit Extraction**
+   - Extracted the **leading digit** from each numeric field.
 
-Generates charts comparing actual digit frequencies with the expected Benford distribution.
+3. **Distribution Comparison**
+   - Calculated the actual frequency of leading digits
+   - Compared with the **expected Benford distribution**
 
-Supports separate analysis of individual features such as followers, friends, and user IDs.
+4. **Statistical Analysis**
+   - Conducted a **Chi-Square Goodness-of-Fit Test**
+   - Visualized actual vs expected digit frequencies
 
-Easily extendable for anomaly detection tasks.
+---
 
-🛠 **Technologies Used:**
-Python
+## 📈 Features
 
-Pandas, NumPy
+- 📊 **Line plots and bar graphs** for digit frequencies  
+- 📉 Visual comparison between **actual vs expected** Benford distribution  
+- 📌 Separate analysis for different fields (followers, friends, IDs)  
+- 🚨 **Extendable for anomaly detection**
 
-Matplotlib / Seaborn for visualization
+---
 
-SciPy for statistical tests
+## 🛠 Technologies Used
 
-**📌Use Cases:**
-Data Integrity Checks: Detect artificial inflation of metrics.
+- 🐍 **Python**
+- 📦 Pandas, NumPy  
+- 📊 Matplotlib, Seaborn (visualizations)  
+- 📐 SciPy (statistical testing)
 
-Behavioural Insights: Understand organic vs manipulated accounts.
+---
 
-Educational Tool: Demonstrates Benford's Law on real-world social media data.
+## 📌 Use Cases
 
+- ✅ **Data Integrity Checks**: Detect metric manipulation or spammy activity  
+- 🔍 **Behavioral Insights**: Analyze trends in natural vs. inorganic growth  
+- 🎓 **Educational Tool**: Real-world demonstration of Benford’s Law  
+
+---
