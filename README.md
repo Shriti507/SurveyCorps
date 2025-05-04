@@ -47,7 +47,7 @@ Matplotlib / Seaborn for visualization
 
 SciPy for statistical tests
 
-📌** Use Case:s**
+**📌Use Cases:**
 Data Integrity Checks: Detect artificial inflation of metrics.
 
 Behavioral Insights: Understand organic vs manipulated accounts.
