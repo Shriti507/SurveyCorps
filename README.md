@@ -30,13 +30,13 @@ Compared with the expected Benford distribution.
 Statistical Tests: Applied Chi-square goodness-of-fit test and visual analysis.
 
 📈 **Features:**
-Supports visualization of digit frequency line plots and bar graphs.
+Provides intuitive visualizations of digit frequencies using line plots and bar charts.
 
-Charts for actual vs expected Benford distribution.
+Generates charts comparing actual digit frequencies with the expected Benford distribution.
 
-Supports analyzing separate features (followers vs friends vs IDs).
+Supports separate analysis of individual features such as followers, friends, and user IDs.
 
-Can be extended for anomaly detection.
+Easily extendable for anomaly detection tasks.
 
 🛠 **Technologies Used:**
 Python
